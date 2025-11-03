@@ -1,0 +1,9 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0101.
+  MODULE set_field.
+
+PROCESS AFTER INPUT.
+  MODULE user_command_0101.
+
+PROCESS ON VALUE-REQUEST.
+  FIELD scr_0101-arquivo MODULE f4_arquivo.
